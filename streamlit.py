@@ -61,3 +61,5 @@ with wartosci_placeholder.container():
     col2.metric("Białko", st.session_state.białkoTotal)
     col3.metric("Tłuszcz", st.session_state.tłuszczeTotal) 
     col4.metric("Węglowodany", st.session_state.węglowodanyTotal)
+    
+st.dataframe(df)
